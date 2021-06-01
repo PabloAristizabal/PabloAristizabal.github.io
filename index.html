@@ -5,36 +5,39 @@
         <meta name="vieport" content = "width = device - width, initial-scale = 1.0">
         <meta http-equiv=X-UA-Compatible" content = "ie = edge">
         <title>Calculadora</title>
-        <script src ="Calculadora.js"></script>
+        <script src ="Calculadora.js" ></script>
+
     </head>
     <body>
-        <h1>Calculadora basica uso de nuevo nivel</h1>
+        <header>
+            <h1>Calculadora basica</h1>
+            <h2>El uso de esta calculadora es basico</h2><br>
+            <p>Para usar la calculadora, escriba el numero despues la operacion y el proximo numero a operar</p>
 
-        <h2>nueva prueba de actualiz</h2>
-        <p>hola a todos como estan</p>
-        <p>hola</p>
-        <p>Esta</p>
-
+        </header>
+        
         
         <label type="text" id="input_data"></label><br>
+        <label type="text" id="ouput_data"></label><br>
         <button id="uno" onclick="dato_one()"">1</button>
         <button id="dos" onclick="dato_two()">2</button>
-        <button id="tres">3</button>
-        <button id="multiplicar">*</button><br>
+        <button id="tres" onclick="dato_tres()"> 3 </button>
+        <button id="multiplicar" onclick="multiplicar()">*</button><br>
 
-        <button id="cuatro">4</button>
-        <button id="cinco">5</button>
-        <button id="seis">6</button>
-        <button id="dividir">/ </button><br>
+        <button id="cuatro" onclick="dato_cuatro()">4</button>
+        <button id="cinco" onclick="dato_cinco()">5</button>
+        <button id="seis" onclick="dato_seis()">6</button>
+        <button id="dividir" onclick="dividir()">/ </button><br>
         
-        <button id="siete">7</button>
-        <button id="ocho">8</button>
-        <button id="nueve">9</button>
-        <button id="sumar">+</button><br>
+        <button id="siete" onclick="dato_siete()">7</button>
+        <button id="ocho" onclick="dato_ocho()">8</button>
+        <button id="nueve" onclick="dato_nueve()">9</button>
+        <button id="sumar" onclick="suma()">+</button><br>
         
-        <button id="igual">=</button>
-        <button id="cero">0 </button>
+        <button id="cero" onclick="dato_cero()">0 </button>
         <button id="delete">x</button>
+        <button id="resta" onclick="resta()">-</button>
+        <button id="igual" onclick="igual()">=</button>
     </body>
 
 </html>
